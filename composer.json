@@ -1,0 +1,40 @@
+{
+  "name": "n7olkachev/php-simple-decorator",
+  "description": "Simple decorator trait for PHP",
+  "homepage": "https://github.com/n7olkachev/php-simple-decorator",
+  "keywords":
+  [
+    "websecret",
+    "simple",
+    "decorator",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Nikita Tolkachev",
+      "email": "n7olkachev@gmail.com",
+      "homepage": "https://n7olkachev.github.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "N7olkachev\\SimpleDelegator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "N7olkachev\\SimpleDelegator\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "license": "MIT"
+}
