@@ -42,7 +42,7 @@ class UserPresenter
     
     public function formattedName()
     {
-        return 'Decorated $this->user->name';
+        return 'Decorated ' . $this->user->name;
     }
 }
 
