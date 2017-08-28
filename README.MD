@@ -46,7 +46,7 @@ class UserPresenter
     }
 }
 
-$decoratedUser = new UserDecorator($user);
+$decoratedUser = new UserPresenter($user);
 
 $decoratedUser->formattedName() // call to decorator method
 $decoratedUser->name // gets original name from User model
