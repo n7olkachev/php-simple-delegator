@@ -19,7 +19,7 @@ Suppose, we want to create Presenter for our User model:
 ```php
 class User extends Model
 {
-    protected $filterable = [
+    protected $fillable = [
         'name',
     ];
 }
