@@ -8,12 +8,12 @@ trait SimpleDelegator
 
     public function __get($key)
     {
-        return $this->delegatee()->{$key};
+        return $this->delegatee()->$key;
     }
 
     public function __set($key, $value)
     {
-        return $this->delegatee()->{$key} = $value;
+        return $this->delegatee()->$key = $value;
     }
 
     public function __call($key, $args)

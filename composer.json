@@ -1,7 +1,7 @@
 {
-  "name": "n7olkachev/php-simple-decorator",
+  "name": "n7olkachev/php-simple-delegator",
   "description": "Simple decorator trait for PHP",
-  "homepage": "https://github.com/n7olkachev/php-simple-decorator",
+  "homepage": "https://github.com/n7olkachev/php-simple-delegator",
   "keywords":
   [
     "websecret",
